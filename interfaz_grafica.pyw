@@ -26,7 +26,7 @@ frame.config(width="700",height="600",bg="#000",bd="35",cursor="circle")
 #widgets botones
 frm = ttk.Frame(frame, padding=10)
 frm.grid()
-ttk.Label(frm, text="Hello World!").grid(column=0, row=0)
+ttk.Label(frm, text="inicio").grid(column=0, row=0)
 ttk.Button(frm, text="Quit", command=raiz.destroy).grid(column=1, row=0)
 
 
