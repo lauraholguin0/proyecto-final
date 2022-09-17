@@ -1,36 +1,39 @@
-from tkinter import *
-from tkinter import ttk
+import tkinter as tk
+class app():
+    def __init__(self, lado_cuadrado):
+        self.lado_cuadrado=lado_cuadrado
 
-#raiz o ventana
-raiz=Tk()
-raiz.title("Juego de Damas Chinas")
-raiz.resizable(1,1)
-raiz.iconbitmap("imagenes/damas.ico")
-raiz.config(bg="green")
+        self.raiz=tk.Tk()
+        self.raiz.title("Juego de Damas Chinas")
+        self.raiz.iconbitmap("imagenes/damas.ico")
+        self.raiz.config(bg="green")
+        
+        #pantalla completa
+        ancho_ventana=self.raiz.winfo_screenwidth()
+        alto_ventana=self.raiz.winfo_screenheight()
+        #centrar en cualquier tamaño de ventana
+        x_ventana=self.raiz.winfo_screenwidth()//2-ancho_ventana//2
+        y_ventana=self.raiz.winfo_screenheight()//2-alto_ventana//2
+        
+        posicion=str(ancho_ventana)+"x"+str(alto_ventana)+"+"+str(x_ventana)+"+"+str(y_ventana)
+        self.raiz.geometry(posicion)
+        self.interfaz2=tk.Canvas()
+        self.interfaz=tk.Canvas()
+        self.interfaz2.pack()
+        self.interfaz2.config(width="684.8",height="50",bg="green")
+        self.interfaz.pack(fill="y",expand=True)
+        self.interfaz.config(width=(ancho_ventana/2),height=(alto_ventana/2),bg="#000",cursor="circle")
 
-#pantalla completa
-ancho_ventana=raiz.winfo_screenwidth()
-alto_ventana=raiz.winfo_screenheight()
-#centrar en cualquier tamaño de ventana
-x_ventana=raiz.winfo_screenwidth()//2-ancho_ventana//2
-y_ventana=raiz.winfo_screenheight()//2-alto_ventana// 2
+    def __call__(self):
+        self.raiz.mainloop()
 
-posicion=str(ancho_ventana)+"x"+str(alto_ventana)+"+"+str(x_ventana)+"+"+str(y_ventana)
-raiz.geometry(posicion)
-
-#frame
-frame=Frame()
-frame.pack(fill="y", expand="true")
-frame.pack()
-frame.config(width="700",height="600",bg="#000",bd="35",cursor="circle")
-#widgets botones
-frm = ttk.Frame(frame, padding=10)
-frm.grid()
-ttk.Label(frm, text="inicio").grid(column=0, row=0)
-ttk.Button(frm, text="Quit", command=raiz.destroy).grid(column=1, row=0)
-
-
-
-#ejecuta la ventana(bucle infinito)
-raiz.mainloop()
-
+    def tablero(self):
+        for i in range(8):
+            for l in range(8): 
+                if(i+l)%2==0:
+                    self.interfaz.create_rectangle(i*self.lado_cuadrado,l*self.lado_cuadrado,(i+1)*self.lado_cuadrado,(l+1)*self.lado_cuadrado,fill="dark red")
+                else:
+                    self.interfaz.create_rectangle(i*self.lado_cuadrado,l*self.lado_cuadrado,(i+1)*self.lado_cuadrado,(l+1)*self.lado_cuadrado,fill="grey")
+inicio1=app(85.6)
+inicio1.tablero()
+inicio1()
