@@ -1,4 +1,3 @@
-from multiprocessing import current_process
 import pygame
 
 ANCHO,ALTURA=600,600
@@ -196,7 +195,7 @@ class Tablero:
 #MANEJO DEL JUEGO--------------------------------------------------------------
 class Juego:
     def __init__(self,win):
-        self.__init__()
+        self._init()
         self.win=win
     
     def update(self):
