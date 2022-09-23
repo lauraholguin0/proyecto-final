@@ -86,7 +86,7 @@ class Tablero:
                     elif(fil>4):
                         self.tablero[fil].append(PIEZAS(fil,col,ROJO))
                     else:
-                        self.tablero[fil].appned(0)
+                        self.tablero[fil].append(0)
                 else:
                     self.tablero[fil].append(0)
     
@@ -114,7 +114,7 @@ class Tablero:
             return ROJO
         return None
 
-    def movimientos_validos(self, pieza):
+    def get_movimientos_validos(self, pieza):
         movimiento={}
         izq=pieza.col-1
         der=pieza.col+1
@@ -248,7 +248,7 @@ class Juego:
     def draw_movimientos_validos(self, movimientos):
         for move in movimientos:
             fil,col=move
-            pygame.draw.circle(self.win, AZUL, (col*TAMANO_CUADRO + TAMANO_CUADRO//2,fil*TAMANO_CUADRO+TAMANO_CUADRO//2,15))
+            pygame.draw.circle(self.win, AZUL, (col*TAMANO_CUADRO + TAMANO_CUADRO//2,fil*TAMANO_CUADRO+TAMANO_CUADRO//2),15)
 
     def change_turn(self):
         self.movimientos_validos=[]
