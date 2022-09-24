@@ -34,9 +34,12 @@ así como en sistemas Windows (Tk en sí no es parte de Python, es mantenido por
 <img width="460" alt="image" src="https://user-images.githubusercontent.com/109982186/192085949-d060660b-00b9-485d-b07f-437a9b7f3421.png">
 
 
-## contruccion del juego 
+## instalacion de pygame
 
-se crea una interfas se hace la creacion del tablero y las piezas 
+<img width="479" alt="image" src="https://user-images.githubusercontent.com/109982186/192087043-12d9be38-0ef0-4ad7-86f2-567e4519a157.png">
+
+
+## contruccion del juego 
 
 <img width="658" alt="image" src="https://user-images.githubusercontent.com/109982186/192086854-2a195a99-5c72-4062-aea0-d0f87b1a8320.png">
 
