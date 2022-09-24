@@ -10,7 +10,21 @@ es un juego que aunque es bastante sencillo necesita una buena logica ya que com
 
 <img width="387" alt="image" src="https://user-images.githubusercontent.com/109982186/192086029-bb75557f-e2d3-4780-a7c6-0fd8971dace2.png">
 
+## Aplicaciones utilizadas
 
+### **python**
+
+Python es un lenguaje de programación orientado a objetos de alto nivel e fácil de interpretar con una sintaxis fácil de leer. Python, ideal para prototipos y tareas ad hoc, tiene un amplio uso en la informática científica, el desarrollo web y la automatización. Como lenguaje de programación para principiantes y con fines generales, Python admite muchos de los mejores científicos de computadoras y desarrolladores de aplicaciones a nivel global.
+
+<img width="400" alt="img" src="https://blog.educacionit.com/wp-content/uploads/2020/02/paython-e1566991357500.png">
+
+ ### **visual studio code**
+ 
+ es un editor de código fuente desarrollado por Microsoft. Es software libre y multiplataforma, está disponible para Windows, GNU/Linux y macOS. VS Code tiene una buena integración con Git, cuenta con soporte para depuración de código, y dispone de un sinnúmero de extensiones, que básicamente te da la posibilidad de escribir y ejecutar código en cualquier lenguaje de programación.
+
+<img width="400" alt="img" src="https://user-images.githubusercontent.com/49339/32078472-5053adea-baa7-11e7-9034-519002f12ac7.png"> 
+
+     
 ## Librerías utilizadas  
 
 **Pygame:**
@@ -23,10 +37,6 @@ comerciales con él.
 
 
 <img width="578" alt="image" src="https://user-images.githubusercontent.com/109982186/192103752-4c972755-b4dd-4d35-bbb3-905c687a3599.png">
-
-## Instalacion de python 
-
-
 
 ## Instalacion de pygame en sistemas operativos windows
 
