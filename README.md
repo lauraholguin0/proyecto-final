@@ -1,5 +1,5 @@
 ## proyecto-final
-**Juego De Damas**
+**JUEGO DE DAMAS**
 
 Realizado por : Laura Karina Borja , Alejandro Parraga y laura holguin. - Estudiantes de Ingenieria de la Universidad Ean. :chess_pawn:
 
