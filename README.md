@@ -27,6 +27,7 @@ comerciales con él.
 
 
 ## Instalacion de pygame
+
 La instalacion de pygame se hace por medio de la consola del computador , a la cual se accede por medio de windowa+R.
 
 <img width="200" alt="image" src="https://rompetusilencio.net/images/blog/Open-the-Command-Prompt-in-Windows.jpg">
@@ -39,12 +40,11 @@ Ya aqui escribiremos lo siguiente pip install pygame y enter, esto comenzara la 
 
 <img width="479" alt="image" src="https://user-images.githubusercontent.com/109982186/192087043-12d9be38-0ef0-4ad7-86f2-567e4519a157.png">
 
-
 ## Contrucción del juego 
+
 En la creacion del juego se realizaron distintos archivos para mejorar el manejo del juego todo estos estan relacionados entre si por medio de una funcion.
 
 <img width="658" alt="image" src="https://i.postimg.cc/6qDX0WKg/Captura-de-pantalla-2022-09-24-100756.png">
-
 
 <img width="658" alt="image" src="https://user-images.githubusercontent.com/109982186/192086854-2a195a99-5c72-4062-aea0-d0f87b1a8320.png">
 
