@@ -48,4 +48,27 @@ En la creacion del juego se realizaron distintos archivos para mejorar el manejo
 
 <img width="658" alt="image" src="https://user-images.githubusercontent.com/109982186/192086854-2a195a99-5c72-4062-aea0-d0f87b1a8320.png">
 
+
+## Glosario
+
+**Simple DirectMedia Layer**
+
+es una biblioteca de desarrollo multiplataforma diseñada para proporcionar acceso de bajo nivel a audio, teclado, mouse, joystick y hardware de gráficos a través de OpenGL y Direct3D. Es utilizado por software de reproducción de video, emuladores y juegos populares, incluido el galardonado catálogo de Valve y muchos juegos de Humble Bundle. 
+
+<img width="387" alt="image" src="https://briefedup.com/wp-content/uploads/SDL-SDL-Logo-768x532.png">
+
+**LGPL(Lesser General Public License)**
+
+Es una licencia de derechos de autor ampliamente usada en el mundo del software libre y código abierto, lo que hace es permitir que los usuarios finales (personas, organizaciones, etc) tengan libertad de usar, estudiar, compartir (copiar) y modificar el software. Su objetivo es doble: recalcar que el software cubierto por esta licencia es libre y, por otro lado, protegerlo (mediante una práctica conocida como copyleft) de intentos de apropiación que restrinjan esas libertades a nuevos usuarios cada vez que la obra (software, plugin, template) es distribuida, modificada o mejorada. 
+
+<img width="387" alt="image" src="https://fossa.com/blog/content/images/2021/08/LGPL.png">
+
+**OpenGL(Open Graphics Library)**
+
+es una interfaz de programación de aplicaciones diseñado para representación 2D y 3D gráficos. Proporciona un conjunto común de comandos que se pueden usar para administrar gráficos en diferentes aplicaciones y en múltiples plataformas. 
+
+Al usar OpenGL, un revelador puede usar el mismo código para representar gráficos en una Mac, PC o dispositivo móvil. Casi todo moderno sistemas operativos y los dispositivos de hardware son compatibles con OpenGL, por lo que es una opción fácil para el desarrollo de gráficos. Además, muchos tarjetas de video e integrado GPU están optimizados para OpenGL, lo que les permite procesar comandos OpenGL de manera más eficiente que otras bibliotecas de gráficos.
+
+<img width="387" alt="img" src="https://www.patentlyapple.com/.a/6a0120a5580826970c0224df38fae1200b-800wi">
+
 Realizado por : Laura Karina Borja , Alejandro Parraga y laura holguin. - Estudiantes de Ingenieria de la Universidad Ean. :chess_pawn:
