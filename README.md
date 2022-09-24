@@ -1,10 +1,10 @@
 # proyecto-final
-**JUEGO DE DAMAS**
+## **JUEGO DE DAMAS**
 
 Para el proyecto final se lleva a cabo la creación de un juego de Damas que funciona a partir de la terminal de cualquier computador o sistema operativo que 
 tenga preinstalado Python, como el lenguaje de programación fundamental que permite obtener o desarrollar una acción predeterminadas que se le solicite a dicha juego para que estas se ejecuten de manera satisfactoria.
 
-**¿por que un juego de damas?**
+### **¿por que un juego de damas?**
 
 es un juego que aunque es bastante sencillo necesita una buena logica ya que como todos los juegos de mesa son de estrategia y un siempre un movimiento puede llevar a una derrota o a la victoria, y esto nos parecio bastante acorde con todo la tematica principal  del curso la cual es el desarrollo de logica ademas del desarrollo de agilidad mental.
 
@@ -27,7 +27,7 @@ Python es un lenguaje de programación orientado a objetos de alto nivel e fáci
      
 ## Librerías utilizadas  
 
-**Pygame:**
+### **Pygame:**
 
 Pygame es un conjunto de módulos de Python diseñados para escribir videojuegos este añade funcionalidad a la excelente biblioteca de SDL. Esto le permite crear 
 juegos con todas las funciones y programas multimedia en el lenguaje python.Ademas de ser altamente portátil y se ejecuta en casi todas las plataformas y sistemas operativos. 
@@ -36,7 +36,7 @@ Pygame es gratuita.ya que esta Lanzado bajo la licencia **LGPL**, puede crear ju
 comerciales con él. 
 
 
-<img width="578" alt="image" src="https://user-images.githubusercontent.com/109982186/192103752-4c972755-b4dd-4d35-bbb3-905c687a3599.png">
+<img width="578" alt="image" src="https://files.realpython.com/media/pygame-logo.e78e57db3000.png">
 
 ## Instalacion de pygame en sistemas operativos windows
 
@@ -58,7 +58,7 @@ Para la construccion del juego se decidimos usar El paradigma de programacion or
 
 y asi procedimos a identificar sus objetos y caracteristicas, entre ellos estan :
 
-**Constantes.py**
+### **Constantes.py**
 
 son todas aquellas variables que a lo largo del juego no cambiaran esta comprende cosas como:
 
@@ -72,7 +72,7 @@ son todas aquellas variables que a lo largo del juego no cambiaran esta comprend
 
 <img width="500" alt="image" src="https://i.imgur.com/zecfzjE.png">
 
-**Pieza.py**
+### **Pieza.py**
 
 Esta todos los metodos necesarios para la creaccion de la ficha:
 
@@ -84,7 +84,7 @@ Esta todos los metodos necesarios para la creaccion de la ficha:
 
 <img width="500" alt="image" src="https://i.imgur.com/xSXgwvl.png">
 
-**Juego.py**
+### **Juego.py**
 
 Es el controlador de la clase tablero, ademas de contener:
 
@@ -98,7 +98,7 @@ Es el controlador de la clase tablero, ademas de contener:
 
 <img width="500" alt="img" src="https://i.imgur.com/J0MqDyg.png">
 
-**Tablero.py**
+### **Tablero.py**
 
 La clase mas "importante" por asi decirlo es la clase tablero, la misma contiene:
 
@@ -112,19 +112,19 @@ La clase mas "importante" por asi decirlo es la clase tablero, la misma contiene
 
 ## Glosario
 
-**Simple DirectMedia Layer**
+### **Simple DirectMedia Layer**
 
 es una biblioteca de desarrollo multiplataforma diseñada para proporcionar acceso de bajo nivel a audio, teclado, mouse, joystick y hardware de gráficos a través de OpenGL y Direct3D. Es utilizado por software de reproducción de video, emuladores y juegos populares, incluido el galardonado catálogo de Valve y muchos juegos de Humble Bundle. 
 
 <img width="387" alt="image" src="https://briefedup.com/wp-content/uploads/SDL-SDL-Logo-768x532.png">
 
-**LGPL(Lesser General Public License)**
+### **LGPL(Lesser General Public License)**
 
 Es una licencia de derechos de autor ampliamente usada en el mundo del software libre y código abierto, lo que hace es permitir que los usuarios finales (personas, organizaciones, etc) tengan libertad de usar, estudiar, compartir (copiar) y modificar el software. Su objetivo es doble: recalcar que el software cubierto por esta licencia es libre y, por otro lado, protegerlo (mediante una práctica conocida como copyleft) de intentos de apropiación que restrinjan esas libertades a nuevos usuarios cada vez que la obra (software, plugin, template) es distribuida, modificada o mejorada. 
 
 <img width="387" alt="image" src="https://fossa.com/blog/content/images/2021/08/LGPL.png">
 
-**OpenGL(Open Graphics Library)**
+### **OpenGL(Open Graphics Library)**
 
 es una interfaz de programación de aplicaciones diseñado para representación 2D y 3D gráficos. Proporciona un conjunto común de comandos que se pueden usar para administrar gráficos en diferentes aplicaciones y en múltiples plataformas. 
 
