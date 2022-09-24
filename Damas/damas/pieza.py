@@ -3,9 +3,8 @@ import pygame
 
 class Pieza:
 
-    padding=15
+    padding=10
     borde=1
-
 
     def __init__(self,fila,col,color):
         self.fila=fila
@@ -38,6 +37,3 @@ class Pieza:
     def __repr__(self):
         #PARA EL DEBBUGING
         return str(self.color)
-
-        
-
