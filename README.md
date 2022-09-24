@@ -71,4 +71,6 @@ Al usar OpenGL, un revelador puede usar el mismo código para representar gráfi
 
 <img width="387" alt="img" src="https://www.patentlyapple.com/.a/6a0120a5580826970c0224df38fae1200b-800wi">
 
-Realizado por : Laura Karina Borja , Alejandro Parraga y laura holguin. - Estudiantes de Ingenieria de la Universidad Ean. :chess_pawn:
+Realizado por : Karina Borja , Alejandro Parraga y laura holguin. - Estudiantes de Ingenieria de la Universidad Ean. :chess_pawn:
+
+<img width="200" alt="img" src="https://universidadean.edu.co/sites/default/files/logo-horizontal-es.png">
