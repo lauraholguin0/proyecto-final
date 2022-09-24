@@ -25,7 +25,7 @@ juegos con todas las funciones y programas multimedia en el lenguaje python.
 *Pygame es gratis. Lanzado bajo la licencia LGPL, puede crear juegos de código abierto, freeware, shareware y 
 comerciales con él. Consulte la licencia para obtener todos los detalles. 
 
-**Turtle: **
+**Turtle:**
 
 El paquete tkinter («interfaz Tk») es la interfaz por defecto de Python para el kit de herramientas de GUI Tk. 
 Tanto Tk como tkinter están disponibles en la mayoría de las plataformas Unix, así como en sistemas Windows 
