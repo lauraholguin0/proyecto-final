@@ -4,7 +4,7 @@ import pygame
 class Pieza:
 
     padding=15
-    borde=2
+    borde=1
 
 
     def __init__(self,fila,col,color):
