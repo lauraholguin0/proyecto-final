@@ -49,6 +49,7 @@ En la creacion del juego se realizaron distintos archivos para mejorar el manejo
 <img width="658" alt="image" src="https://user-images.githubusercontent.com/109982186/192086854-2a195a99-5c72-4062-aea0-d0f87b1a8320.png">
 
 
+
 ## Glosario
 
 **Simple DirectMedia Layer**
@@ -71,6 +72,15 @@ Al usar OpenGL, un revelador puede usar el mismo código para representar gráfi
 
 <img width="387" alt="img" src="https://www.patentlyapple.com/.a/6a0120a5580826970c0224df38fae1200b-800wi">
 
+## Referencias
+
+<a href="https://www.pygame.org/wiki/about">Acerca de - pygame wiki   
+
+<a href="https://techlib.net/definition/opengl.html">Definicion OpenGL
+ 
+<a href="http://www.libsdl.org/">Capa simple de DirectMedia  </a>
+  
+  
 Realizado por : Karina Borja , Alejandro Parraga y laura holguin. - Estudiantes de Ingenieria de la Universidad Ean. :chess_pawn:
 
 <img width="200" alt="img" src="https://universidadean.edu.co/sites/default/files/logo-horizontal-es.png">
