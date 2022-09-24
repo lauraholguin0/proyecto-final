@@ -1,7 +1,7 @@
 #ESTA CLASE ES EL CONTROLADOR DEL TABLERO
 import pygame
 from damas.tablero import Tablero
-from .constantes import cafe_claro,blanco,azul,t_cuadrado
+from .constantes import rojo,blanco,azul,t_cuadrado
 
 class Juego:
     def __init__(self,ven):
@@ -16,7 +16,7 @@ class Juego:
     def _init(self):
         self.selected=None
         self.tablero=Tablero()
-        self.turn=cafe_claro
+        self.turn=rojo
         self.movimientos_validos={}
     
     def ganador(self):
@@ -63,7 +63,7 @@ class Juego:
 
     def cambio_turno(self):
         self.movimientos_validos={}
-        if self.turn==cafe_claro:
+        if self.turn==rojo:
             self.turn=blanco
         else:
-            self.turn=cafe_claro
+            self.turn=rojo
