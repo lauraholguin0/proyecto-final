@@ -26,7 +26,7 @@ comerciales con él.
 
 
 
-## Instalacion de pygame
+## Instalacion de pygame en sistemas operativos windows
 
 La instalacion de pygame se hace por medio de la consola del computador , a la cual se accede por medio de windowa+R.
 
