@@ -24,6 +24,8 @@ comerciales con él.
 
 <img width="578" alt="image" src="https://user-images.githubusercontent.com/109982186/192103752-4c972755-b4dd-4d35-bbb3-905c687a3599.png">
 
+## Instalacion de python 
+
 
 
 ## Instalacion de pygame en sistemas operativos windows
@@ -36,7 +38,7 @@ Esto abre un ventana en la parte inferior en la cual deveremos escribir las letr
 
 <img width="250" alt="image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.groovypost.com%2Fwp-content%2Fuploads%2F2010%2F08%2Fimage_43.png&f=1&nofb=1&ipt=b90b200308e7d427f54dac15134bc7a981ddd4427286c51f06643b18e076ba62&ipo=images">
 
-Ya aqui escribiremos lo siguiente pip install pygame y enter, esto comenzara la intalacion de pygame en el dispositivo.
+Ya aqui escribiremos lo siguiente pip install pygame y enter, esto comenzara la instalacion de pygame en el dispositivo.
 
 <img width="479" alt="image" src="https://user-images.githubusercontent.com/109982186/192087043-12d9be38-0ef0-4ad7-86f2-567e4519a157.png">
 
@@ -46,27 +48,57 @@ Para la construccion del juego se decidimos usar El paradigma de programacion or
 
 y asi procedimos a identificar sus objetos y caracteristicas, entre ellos estan :
 
-**contantes.py**
+**Constantes.py**
 
 son todas aquellas variables que a lo largo del juego no cambiaran esta comprende cosas como:
 
-🔴la imagen de la corona en los reyes
+🔴 La imagen de la corona en los reyes
 
-⚪el color del tablero y las fichas
+⚪ El color del tablero y las fichas
 
-🔴el tamaño del tablero 
+🔴 El tamaño del tablero.
 
-⚫el numero de filas y columnas
+⚫ El numero de filas y columnas.
 
-**pieza.py**
+<img width="500" alt="image" src="https://i.imgur.com/zecfzjE.png">
 
-esta todos los metodos necesarios para la creaccion de la ficha:
+**Pieza.py**
 
-✿El que se dibuje
+Esta todos los metodos necesarios para la creaccion de la ficha:
 
-✿Su posicion dentro del cuadro
+✿ El que se dibuje.
 
-✿Calcular la posicion de cada ficha
+✿ Su posicion dentro del cuadro.
+
+✿ Calcular la posicion de cada ficha.
+
+<img width="500" alt="image" src="https://i.imgur.com/xSXgwvl.png">
+
+**Juego.py**
+
+Es el controlador de la clase tablero, ademas de contener:
+
+◉ Todos los movimientos validos de cada ficha.
+
+◉ Muestra circulo azul "(metodo(dibujar_movimiento_valido)"que indica movimientos validos disponibles.
+
+◉ Permite el cambio de turno.
+
+◉ percibe el cambio en la posicion de cada ficha.
+
+<img width="500" alt="img" src="https://i.imgur.com/J0MqDyg.png">
+
+**Tablero.py**
+
+La clase mas "importante" por asi decirlo es la clase tablero, la misma contiene:
+
+☆ La creacion del tablero y diseño del tablero.
+
+☆ El tablero que es una matriz de numeros que permiten que cada cuadrado tenga una posicion en x y con el Metodo(crear_tablero).
+
+☆ El metodo(dibujar) que dibujas los cuadros.
+
+<img width="500" alt="img" src="https://i.imgur.com/PEFuDPB.png">
 
 ## Glosario
 
