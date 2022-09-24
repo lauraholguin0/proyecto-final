@@ -1,51 +1,51 @@
-## proyecto-final
+# proyecto-final
 **JUEGO DE DAMAS**
 
-Realizado por : Laura Karina Borja , Alejandro Parraga y laura holguin. - Estudiantes de Ingenieria de la Universidad Ean. :chess_pawn:
+Para el proyecto final se lleva a cabo la creación de un juego de Damas que funciona a partir de la terminal de cualquier computador o sistema operativo que 
+tenga preinstalado Python, como el lenguaje de programación fundamental que permite obtener o desarrollar una acción predeterminadas que se le solicite a dicha juego para que estas se ejecuten de manera satisfactoria.
 
-para el proyecto final se lleva a cabo 
-la creación de un juego de Damas que funciona a partir de la terminal de cualquier computador o sistema operativo que 
-tenga preinstalado Python , como el lenguaje de programación fundamental que permite obtener o desarrollar una acción
-predeterminadas que se le solicite a dicha juego para que estas se ejecuten de manera satisfactoria.
+**¿por que un juego de damas?**
+
+es un juego que aunque es bastante sencillo necesita una buena logica ya que como todos los juegos de mesa son de estrategia y un siempre un movimiento puede llevar a una derrota o a la victoria, y esto nos parecio bastante acorde con todo la tematica principal  del curso la cual es el desarrollo de logica ademas del desarrollo de agilidad mental.
 
 <img width="387" alt="image" src="https://user-images.githubusercontent.com/109982186/192086029-bb75557f-e2d3-4780-a7c6-0fd8971dace2.png">
+
 
 ## Librerías utilizadas  
 
 **Pygame:**
 
-Pygame es un conjunto de módulos de Python diseñados para escribir videojuegos. 
-Pygame añade funcionalidad a la excelente biblioteca de SDL. Esto le permite crear 
-juegos con todas las funciones y programas multimedia en el lenguaje python. 
+Pygame es un conjunto de módulos de Python diseñados para escribir videojuegos este añade funcionalidad a la excelente biblioteca de SDL. Esto le permite crear 
+juegos con todas las funciones y programas multimedia en el lenguaje python.Ademas de ser altamente portátil y se ejecuta en casi todas las plataformas y sistemas operativos. 
 
-*Pygame es altamente portátil y se ejecuta en casi todas las plataformas y sistemas operativos. 
+Pygame es gratuita.ya que esta Lanzado bajo la licencia **LGPL**, puede crear juegos de código abierto, freeware, shareware y 
+comerciales con él. 
 
-*Pygame en sí ha sido descargado millones de veces. 
-
-*Pygame es gratis. Lanzado bajo la licencia LGPL, puede crear juegos de código abierto, freeware, shareware y 
-comerciales con él. Consulte la licencia para obtener todos los detalles. 
-
-**Turtle:**
-
-El paquete tkinter («interfaz Tk») es la interfaz por defecto de Python para el kit de herramientas de GUI Tk. 
-Tanto Tk como tkinter están disponibles en la mayoría de las plataformas Unix, así como en sistemas Windows 
-(Tk en sí no es parte de Python, es mantenido por ActiveState).
 
 <img width="578" alt="image" src="https://user-images.githubusercontent.com/109982186/192103752-4c972755-b4dd-4d35-bbb3-905c687a3599.png">
 
 
 
-## instalacion de pygame
+## Instalacion de pygame
+La instalacion de pygame se hace por medio de la consola del computador , a la cual se accede por medio de windowa+R.
+
+<img width="200" alt="image" src="https://rompetusilencio.net/images/blog/Open-the-Command-Prompt-in-Windows.jpg">
+
+Esto abre un ventana en la parte inferior en la cual deveremos escribir las letras cmd, y esto abrira parte de la consola del dispositivo.
+
+<img width="250" alt="image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.groovypost.com%2Fwp-content%2Fuploads%2F2010%2F08%2Fimage_43.png&f=1&nofb=1&ipt=b90b200308e7d427f54dac15134bc7a981ddd4427286c51f06643b18e076ba62&ipo=images">
+
+Ya aqui escribiremos lo siguiente pip install pygame y enter, esto comenzara la intalacion de pygame en el dispositivo.
 
 <img width="479" alt="image" src="https://user-images.githubusercontent.com/109982186/192087043-12d9be38-0ef0-4ad7-86f2-567e4519a157.png">
 
-## instalacion de turtle
 
-<img width="466" alt="image" src="https://user-images.githubusercontent.com/109982186/192104476-100da4ae-1fcb-4230-acb7-4fb459d1161f.png">
+## Contrucción del juego 
+En la creacion del juego se realizaron distintos archivos para mejorar el manejo del juego todo estos estan relacionados entre si por medio de una funcion.
 
+<img width="658" alt="image" src="https://i.postimg.cc/6qDX0WKg/Captura-de-pantalla-2022-09-24-100756.png">
 
-## contruccion del juego 
 
 <img width="658" alt="image" src="https://user-images.githubusercontent.com/109982186/192086854-2a195a99-5c72-4062-aea0-d0f87b1a8320.png">
 
-
+Realizado por : Laura Karina Borja , Alejandro Parraga y laura holguin. - Estudiantes de Ingenieria de la Universidad Ean. :chess_pawn:
