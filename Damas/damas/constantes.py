@@ -1,4 +1,3 @@
-from turtle import width
 import pygame
 
 width,height=600,600 #TAMAÑO PANTALLA
