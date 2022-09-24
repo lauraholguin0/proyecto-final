@@ -34,6 +34,10 @@ comerciales con él. Consulte la licencia para obtener todos los detalles.
 
 <img width="479" alt="image" src="https://user-images.githubusercontent.com/109982186/192087043-12d9be38-0ef0-4ad7-86f2-567e4519a157.png">
 
+## instalacion de pygame
+
+<img width="466" alt="image" src="https://user-images.githubusercontent.com/109982186/192104476-100da4ae-1fcb-4230-acb7-4fb459d1161f.png">
+
 
 ## contruccion del juego 
 
