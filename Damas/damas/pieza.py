@@ -6,6 +6,7 @@ class Pieza:
     padding=10
     borde=1
 
+
     def __init__(self,fila,col,color):
         self.fila=fila
         self.col=col
@@ -20,7 +21,7 @@ class Pieza:
         self.y=t_cuadrado*self.fila+t_cuadrado//2
 
     def crear_rey(self): #VOLVER UNA FICHA REYco
-        self.rey=True
+        self.king=True
     
     def dibujar(self, ven): #TAMAÑO DE LAS FICHAS
         radio=t_cuadrado//2-self.padding
