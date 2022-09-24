@@ -42,13 +42,31 @@ Ya aqui escribiremos lo siguiente pip install pygame y enter, esto comenzara la 
 
 ## Contrucción del juego 
 
-En la creacion del juego se realizaron distintos archivos para mejorar el manejo del juego todo estos estan relacionados entre si por medio de una funcion.
+Para la construccion del juego se decidimos usar El paradigma de programacion orientada a objetos
 
-<img width="658" alt="image" src="https://i.postimg.cc/6qDX0WKg/Captura-de-pantalla-2022-09-24-100756.png">
+y asi procedimos a identificar sus objetos y caracteristicas, entre ellos estan :
 
-<img width="658" alt="image" src="https://user-images.githubusercontent.com/109982186/192086854-2a195a99-5c72-4062-aea0-d0f87b1a8320.png">
+**contantes.py**
 
+son todas aquellas variables que a lo largo del juego no cambiaran esta comprende cosas como:
 
+🔴la imagen de la corona en los reyes
+
+⚪el color del tablero y las fichas
+
+🔴el tamaño del tablero 
+
+⚫el numero de filas y columnas
+
+**pieza.py**
+
+esta todos los metodos necesarios para la creaccion de la ficha:
+
+✿El que se dibuje
+
+✿Su posicion dentro del cuadro
+
+✿Calcular la posicion de cada ficha
 
 ## Glosario
 
@@ -81,6 +99,7 @@ Al usar OpenGL, un revelador puede usar el mismo código para representar gráfi
 <a href="http://www.libsdl.org/">Capa simple de DirectMedia  </a>
   
   
-Realizado por : Karina Borja , Alejandro Parraga y laura holguin. - Estudiantes de Ingenieria de la Universidad Ean. :chess_pawn:
+Realizado por : Karina Borja , Alejandro Parraga y laura holguin. - Estudiantes de Ingenieria de la Universidad Ean. 
+<img width="20" alt="img" src="https://cdn-icons-png.flaticon.com/512/3861/3861923.png">
 
 <img width="200" alt="img" src="https://universidadean.edu.co/sites/default/files/logo-horizontal-es.png">
