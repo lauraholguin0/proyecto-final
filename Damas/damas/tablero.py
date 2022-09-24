@@ -1,19 +1,19 @@
 import pygame
 from .pieza import Pieza
-from .constantes import negro,filas, rojo, t_cuadrado,colu, blanco
+from .constantes import cafe_oscuro,filas, cafe_claro,rojo, t_cuadrado,colu, blanco
 
 class Tablero:
     def __init__(self):
         self.tablero=[] 
-        self.rojo_izq=self.blanco_izq=12
-        self.rey_rojo=self.rey_blanco=0
+        self.cafe_claro_izq=self.blanco_izq=12
+        self.rey_cafe_claro=self.rey_blanco=0
         self.crear_Tablero()
 
     def dibujar_cuadrados(self,ven):
-        ven.fill(negro)
+        ven.fill(cafe_oscuro)
         for fila in range(filas):
             for col in range(fila%2,colu ,2 ):
-                pygame.draw.rect(ven, rojo, (fila*t_cuadrado,col*t_cuadrado, t_cuadrado, t_cuadrado))
+                pygame.draw.rect(ven, cafe_claro, (fila*t_cuadrado,col*t_cuadrado, t_cuadrado, t_cuadrado))
 
     def mover(self, pieza, fila, col):
         self.tablero[pieza.fila][pieza.col], self.tablero[fila][col] = self.tablero[fila][col], self.tablero[pieza.fila][pieza.col]
@@ -24,7 +24,7 @@ class Tablero:
             if pieza.color == blanco:
                 self.rey_blanco += 1
             else:
-                self.rey_rojo += 1 
+                self.rey_cafe_claro += 1 
 
     def get_pieza(self,fila,col):
         return self.tablero[fila][col]
@@ -56,16 +56,16 @@ class Tablero:
         for pieza in piezas:
             self.tablero[pieza.fila][pieza.col]=0
             if pieza!=0:
-                if pieza.color==rojo:
-                    self.rojo_izq-=1
+                if pieza.color==cafe_claro:
+                    self.cafe_claro_izq-=1
                 else:
                     self.blanco_izq-=1
 
     def ganador(self):
-        if self.rojo_izq<=0:
+        if self.cafe_claro_izq<=0:
             return blanco
         elif(self.blanco_izq<=0):
-            return rojo
+            return cafe_claro
         return None 
 
     def get_movimientos_validos(self, pieza):
@@ -74,7 +74,7 @@ class Tablero:
         derecha = pieza.col + 1
         fila = pieza.fila
 
-        if pieza.color == rojo or pieza.rey:
+        if pieza.color == cafe_claro or pieza.rey:
             movimientos.update(self._diagonal_izq(fila -1, max(fila-3, -1), -1, pieza.color, izquierda))
             movimientos.update(self._diagonal_der(fila -1, max(fila-3, -1), -1, pieza.color, derecha))
         if pieza.color == blanco or pieza.rey:
@@ -146,6 +146,3 @@ class Tablero:
 
             derecha+=1
         return movimientos
-
-
-
