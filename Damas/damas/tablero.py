@@ -1,6 +1,6 @@
 import pygame
 from .pieza import Pieza
-from .constantes import cafe_claro,filas, rojo, t_cuadrado,colu, blanco,cafe_oscuro
+from .constantes import negro,filas, rojo, t_cuadrado,colu, blanco
 
 class Tablero:
     def __init__(self):
@@ -10,10 +10,10 @@ class Tablero:
         self.crear_Tablero()
 
     def dibujar_cuadrados(self,ven):
-        ven.fill(cafe_claro)
+        ven.fill(negro)
         for fila in range(filas):
             for col in range(fila%2,colu ,2 ):
-                pygame.draw.rect(ven, cafe_oscuro, (fila*t_cuadrado,col*t_cuadrado, t_cuadrado, t_cuadrado))
+                pygame.draw.rect(ven, rojo, (fila*t_cuadrado,col*t_cuadrado, t_cuadrado, t_cuadrado))
 
     def mover(self, pieza, fila, col):
         self.tablero[pieza.fila][pieza.col], self.tablero[fila][col] = self.tablero[fila][col], self.tablero[pieza.fila][pieza.col]
