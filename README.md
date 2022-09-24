@@ -1,14 +1,7 @@
 ## proyecto-final
 **Juego De Damas**
 
-Realizado por : Laura Karina Borja , Alejandro Parraga y laura holguin. - Estudiantes de Ingenieria de la Universidad Ean. :chess_pawn:
 
-para el proyecto final se lleva a cabo 
-la creación de un juego de Damas que funciona a partir de la terminal de cualquier computador o sistema operativo que 
-tenga preinstalado Python , como el lenguaje de programación fundamental que permite obtener o desarrollar una acción
-predeterminadas que se le solicite a dicha juego para que estas se ejecuten de manera satisfactoria.
-
-<img width="387" alt="image" src="https://user-images.githubusercontent.com/109982186/192086029-bb75557f-e2d3-4780-a7c6-0fd8971dace2.png">
 
 ## Librerías utilizadas  
 
