@@ -34,7 +34,3 @@ class Pieza:
              self.fila=fila
              self.col=col
              self.calc_pos()
-
-    def __repr__(self):
-        #PARA EL DEBBUGING
-        return str(self.color)
