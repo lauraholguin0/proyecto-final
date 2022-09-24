@@ -7,6 +7,8 @@ FPS=60
 ven=pygame.display.set_mode((width,height))
 #Titulo
 pygame.display.set_caption("Damas")
+pygame_icon = pygame.image.load('damas/damas.ico')
+pygame.display.set_icon(pygame_icon)
 #CONFIGURACION VENTANA----------------------------------
 
 def get_filcol_from_mouse(pos):
