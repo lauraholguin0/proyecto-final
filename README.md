@@ -26,7 +26,8 @@ juegos con todas las funciones y programas multimedia en el lenguaje python.
 comerciales con él. Consulte la licencia para obtener todos los detalles. 
 
 
-<img width="460" alt="image" src="https://user-images.githubusercontent.com/109982186/192085949-d060660b-00b9-485d-b07f-437a9b7f3421.png">
+<img width="578" alt="image" src="https://user-images.githubusercontent.com/109982186/192103752-4c972755-b4dd-4d35-bbb3-905c687a3599.png">
+
 
 
 ## instalacion de pygame
