@@ -21,7 +21,7 @@ class Pieza:
         self.y=t_cuadrado*self.fila+t_cuadrado//2
 
     def crear_rey(self): #VOLVER UNA FICHA REYco
-        self.king=True
+        self.rey=True
     
     def dibujar(self, ven): #TAMAÑO DE LAS FICHAS
         radio=t_cuadrado//2-self.padding
