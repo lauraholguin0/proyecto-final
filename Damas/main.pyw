@@ -1,5 +1,5 @@
 import pygame
-from damas.constantes import width, height,t_cuadrado,rojo
+from damas.constantes import width, height,t_cuadrado,cafe_claro
 from damas.juego import Juego
 
 #CONFIGURACION VENTANA----------------------------------
