@@ -6,7 +6,7 @@ from damas.juego import Juego
 FPS=60
 ven=pygame.display.set_mode((width,height))
 #Titulo
-pygame.display.set_caption("Damas Chinas")
+pygame.display.set_caption("Damas")
 #CONFIGURACION VENTANA----------------------------------
 
 def get_filcol_from_mouse(pos):
